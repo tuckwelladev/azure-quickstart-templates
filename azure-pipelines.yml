@@ -20,7 +20,7 @@ steps:
     azureResourceManagerConnection: 'AzDo-HydrogenTesting'
     subscriptionId: 'a30ea05d-c647-42aa-83cd-49bc8536f58c'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'ARMPipelinesLAMP-rg'
+    resourceGroupName: 'AzDoTesting'
     location: 'uksouth'
     templateLocation: 'Linked artifact'
     csmFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.json'
